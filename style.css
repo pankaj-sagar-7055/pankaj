@@ -1,3 +1,85 @@
-body{
-    background-color: rgb(42, 165, 52);
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: sans-serif;
+    color: #222831;
+}
+
+a {
+    text-decoration: none;
+    color: #222831;
+}
+
+a:hover {
+    color: red;
+    transition: all 250;
+}
+
+.navbar {
+    background-color: white;
+    position: fixes;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+    --webkitit-box-shadow: 0px 10px 13px -7px #000000,
+        5px 5px 15px 5px rgba(0, 0, 0, 0, );
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px #000000;
+
+}
+
+.logo-main-title {
+    font-size: 25px;
+    font-size: italic;
+    border-bottom: #892cdc 4px solid;
+}
+
+.logo-main-title {
+    font-size: 25px;
+    font-style: italic;
+    border-bottom: #892cdc 4px solid;
+
+}
+
+.logo-title {
+    color: #222831;
+    text-decoration: underline;
+}
+
+.list-wrap {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.list-item {
+    list-style: none;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+
+.list-item:hover {
+    background-color: #892cdc;
+    cursor: pointer;
+}
+
+.hire-btn {
+    width: 120px;
+    height: 35px;
+    border: none;
+    background-color: red;
+    --webkit-box-shadow: 0px 10px 13px -7px #000000,
+        5px 5px 15px 5px rgba(0, 0, 0, 0, ): box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px #000000;
+}
+
+.hire-btn {
+    cursor: pointer;
+    transform: scale(1.1);
 }
